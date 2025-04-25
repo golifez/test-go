@@ -9,7 +9,7 @@ RUN apt-get update && \
       ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# 3. 将当前目录下编译好的二进制文件复制到镜像中
+# 3. 将当前目录下编译好的二进制文件复制到镜像中是的
 WORKDIR /app
 COPY app .
 
