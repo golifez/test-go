@@ -14,7 +14,7 @@ func main() {
 	// 添加一个简单的路由
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "pong你好啊",
+			"message": "pong你好啊sssds",
 		})
 	})
 	fmt.Print("test")
