@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -16,7 +17,8 @@ func main() {
 			"message": "pong你好啊",
 		})
 	})
+	fmt.Print("test")
 
 	// 启动服务器，默认监听 8080 端口
-	r.Run(":8080")
+	r.Run(":8180")
 }
